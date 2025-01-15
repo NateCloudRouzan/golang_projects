@@ -1,0 +1,24 @@
+Question: Given a string s containing just the characters '(', ')', '{', '}', '[' and ']', determine if the input string is valid.
+
+An input string is valid if:
+
+Open brackets must be closed by the same type of brackets.
+Open brackets must be closed in the correct order.
+Every close bracket has a corresponding open bracket of the same type.
+
+test cases
+-----------------------------------------------------------------------------------------------------------------------------------
+PASS : Empty input Time elapsed 166ns
+        got a rogue close param that has no open.(expected= actual=a)
+PASS : invalid characters Time elapsed 4.917µs
+PASS : single open Time elapsed 83ns
+PASS : odd number of parens []] Time elapsed 83ns
+PASS : single pair () Time elapsed 1.084µs
+PASS : single pair {} Time elapsed 375ns
+PASS : single pair [] Time elapsed 375ns
+PASS : embedded {{[]}} Time elapsed 708ns
+PASS : doubly embedded {{[][]}} Time elapsed 1.084µs
+        got a rogue close param that has no open.(expected=} actual=])
+PASS : badly embedded {[{][]}} Time elapsed 2.25µs
+PASS : never closes [[[[[[[[[[[[[[[[[ Time elapsed 83ns
+PASS : starts with close )() Time elapsed 84ns
