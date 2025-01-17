@@ -1,0 +1,11 @@
+Question: Implement a function to check if a given string is a palindrome. (same forward and backward)
+
+
+PASS : Empty input Time elapsed 167ns
+PASS : single char input Time elapsed 83ns
+PASS : two of same characters aa Time elapsed 83ns
+PASS : two diff charachters ab Time elapsed 84ns
+PASS : odd palindrome aba Time elapsed 84ns
+PASS : longer palindrome odd racecar Time elapsed 83ns
+PASS : longer palindrome odd abbaabba Time elapsed 125ns
+PASS : long and isnt a palindrome Time elapsed 125ns

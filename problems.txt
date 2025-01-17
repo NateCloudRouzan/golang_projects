@@ -5,30 +5,25 @@ When solving the problem We want to print the following out to the console
 - Full question, Best Case, Worst case, Complexity, Implementation details  
 
 Easy Problems 
-- Implement a function to check if a given string is a palindrome.
-- Given a string of parentheses, write a function to check if they are balanced.
+- You are given an array prices where prices[i] is the price of a given stock on the ith day. You want to maximize your profit by choosing a single day to buy one stock and choosing a different day in the future to sell that stock. Return the maximum profit you can achieve from this transaction. If you cannot achieve any profit, return O.
+- Given an integer array nums, move all O's to the end of it while maintaining the relative order of the non-zero elements. Note that you must do this in-place without making a copy of the array.
+- Given an array of integers nums which is sorted in ascending order, and an integer target, write a function to search target in nums. If target exists, then return its index. Otherwise, return -1.
+- Design a URL Shortener service (e.g., like Bit.ly).
+- Write an algorithm to determine if a number n is happy. A happy number is a number defined by the following process: Starting with any positive integer, replace the number by the sum of the squares of its digits. Repeat the process until the number equals 1 (where it will stay), or it loops endlessly in a cycle which does not include 1.
+  Those numbers for which this process ends in 1 are happy. Return true if n is a happy number, and false if not.
+- Given an array of integers nums and an integer target, return indices of the two numbers such that they add up to target. You may assume that each input would have exactly one solution, and you may not use the same element twice. You can return the answer in any order.
 - Create a class for a Bank Account that supports deposits, withdrawals, and balance checks.
 - Create a class hierarchy for Shapes (e.g., Circle, Rectangle) with a method to calculate the area.
-- Write a function to check if two strings are anagrams of each other.
 - Write a SQL query to find the second highest salary in a table.
-- Design a URL Shortener service (e.g., like Bit.ly).
 - Given an integer array nums, return true if any value appears at least twice in the array, and return false if every element is distinct.
-- Given an array of integers nums and an integer target, return indices of the two numbers such that they add up to target. You may assume that each input would have exactly one solution, and you may not use the same element twice. You can return the answer in any order.
-- Given two strings s and t, return true if t is an anagram of s, and false otherwise. An Anagram is a word or phrase formed by rearranging the letters of a different word or phrase, typically using all the original letters exactly once.
-- You are given an array prices where prices[i] is the price of a given stock on the ith day. You want to maximize your profit by choosing a single day to buy one stock and choosing a different day in the future to sell that stock. Return the maximum profit you can achieve from this transaction. If you cannot achieve any profit, return O.
-- Given an array of integers nums which is sorted in ascending order, and an integer target, write a function to search target in nums. If target exists, then return its index. Otherwise, return -1.
 - Given the head of a singly linked list, reverse the list, and return the reversed list.
 - You are given the heads of two sorted linked lists list1 and list2. Merge the two lists in a one sorted list. The list should be made by splicing together the nodes of the first two lists. Return the head of the merged linked list.
 - Given the root of a binary tree, return the length of the diameter of the tree. The diameter of a binary tree is the length of the longest path between any two nodes in a tree. This path may or may not pass through the root. The length of a path between two nodes is represented by the number of edges between them.
 - Given a binary tree, determine if it is height-balanced.
 - Given a binary search tree (BST), find the lowest common ancestor (LCA) node of two given nodes in the BST. According to the definition of LCA on Wikipedia: "The lowest common ancestor is defined between two nodes p and q as the lowest node in T that has both p and q as descendants (where we allow a node to be a descendant of itself)."
-- Write an algorithm to determine if a number n is happy. A happy number is a number defined by the following process: Starting with any positive integer, replace the number by the sum of the squares of its digits. Repeat the process until the number equals 1 (where it will stay), or it loops endlessly in a cycle which does not include 1.
-  Those numbers for which this process ends in 1 are happy. Return true if n is a happy number, and false if not.
-- Given an integer array nums, move all O's to the end of it while maintaining the relative order of the non-zero elements. Note that you must do this in-place without making a copy of the array.
 - You are given two binary trees root and root.
 - Imagine that when you put one of them to cover the other, some nodes of the two trees are overlapped while the others are not. You need to merge the two trees into a new binary tree. The merge rule is that if two nodes overlap, then sum node values up as the new value of the merged node. Otherwise, the NOT null node will be used as the node of the new tree. Return the merged tree. Note: The merging process must start from the root nodes of both trees.
 - Given the root of a binary tree and an integer targetSum, return true if the tree has a root-to-leaf path such that adding up all the values along the path equals targetSum. A leaf is a node with no children.
-
 
 Medium 
 - Design an algorithm to find the kth largest element in an unsorted array.
